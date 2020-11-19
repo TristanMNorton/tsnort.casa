@@ -90,7 +90,7 @@ html {
   z-index: 1;
   mix-blend-mode: multiply;
   backdrop-filter: blur(1px);
-  transition: background-color 500ms, backdrop-filter 2000ms;
+  transition: background-color 500ms, backdrop-filter 4000ms;
 }
 
 body.record-collection #__layout > div::after {

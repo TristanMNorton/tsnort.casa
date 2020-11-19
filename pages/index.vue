@@ -36,7 +36,7 @@ export default {}
 
 .link {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #35495e;
   word-spacing: 5px;
   padding-bottom: 15px;

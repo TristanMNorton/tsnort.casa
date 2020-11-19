@@ -22,7 +22,7 @@ export default function animation () {
   const controls = new OrbitControls(camera, canvas)
   controls.update()
   controls.autoRotate = true
-  controls.autoRotateSpeed = 0.1
+  controls.autoRotateSpeed = 0.5
 
   const light = new DirectionalLight('#f1faee', 0.8)
   light.position.set(2, 2, 2).normalize()
