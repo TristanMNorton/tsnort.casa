@@ -1,13 +1,11 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        Tristan Norton
-      </h1>
-      <h2 class="subtitle">
-        Web Developer / Designer
-      </h2>
-    </div>
+  <div class="mainNav">
+    <h1 class="title">
+      Tristan Norton
+    </h1>
+    <NuxtLink to="/record-collection" class="link">
+      Heady Jams
+    </NuxtLink>
   </div>
 </template>
 
@@ -20,32 +18,25 @@ export default {}
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  text-align: left;
+}
+
+.mainNav {
+  padding: 2rem;
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
-.subtitle {
+.link {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 1.5rem;
   color: #35495e;
   word-spacing: 5px;
   padding-bottom: 15px;

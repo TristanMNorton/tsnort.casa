@@ -28,15 +28,7 @@ export default {
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -44,6 +36,16 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }
 
 *,
@@ -73,6 +75,7 @@ html {
 
 #__layout > div {
   position: relative;
+  min-height: 100vh;
 }
 
 #__layout > div::after {
@@ -87,7 +90,11 @@ html {
   z-index: 1;
   mix-blend-mode: multiply;
   backdrop-filter: blur(1px);
-  transition: background-color 500ms;
+  transition: background-color 500ms, backdrop-filter 2000ms;
+}
+
+body.record-collection #__layout > div::after {
+  backdrop-filter: blur(10px);
 }
 
 .button--green {
