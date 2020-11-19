@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1605761556",layout:"default",error:a,state:{allAlbums:a,selectedAlbumId:a,selectedAlbumIndex:a},serverRendered:true,routePath:"\u002Frecord-collection",config:{}}}(null));
