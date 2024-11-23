@@ -12,24 +12,24 @@
     "lint": "npm run lint:js && npm run lint:style"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
-    "canvas-sketch-util": "^1.10.0",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "swiper": "^6.3.5",
-    "three": "^0.122.0",
-    "three-orbitcontrols": "^2.110.3",
-    "vue-awesome-swiper": "^4.1.1"
+    "@nuxtjs/axios": "5.12.2",
+    "canvas-sketch-util": "1.10.0",
+    "core-js": "3.6.5",
+    "nuxt": "2.14.6",
+    "swiper": "6.3.5",
+    "three": "0.122.0",
+    "three-orbitcontrols": "2.110.3",
+    "vue-awesome-swiper": "4.1.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
-    "@nuxtjs/stylelint-module": "^4.0.0",
-    "@nuxtjs/tailwindcss": "^3.2.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "stylelint": "^13.7.2",
-    "stylelint-config-standard": "^20.0.0"
+    "@nuxtjs/eslint-config": "3.1.0",
+    "@nuxtjs/eslint-module": "2.0.0",
+    "@nuxtjs/stylelint-module": "4.0.0",
+    "@nuxtjs/tailwindcss": "3.2.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.10.0",
+    "eslint-plugin-nuxt": "1.0.0",
+    "stylelint": "13.7.2",
+    "stylelint-config-standard": "20.0.0"
   }
 }
